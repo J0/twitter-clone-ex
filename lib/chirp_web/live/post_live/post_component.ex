@@ -3,7 +3,7 @@ defmodule ChirpWeb.PostLive.PostComponent do
 
   def render(assigns) do
     ~L"""
-      <tr id="post-<%= @post.id %>">
+    <tr id="post-<%= @post.id %>">
       <td><%= @post.username %></td>
       <td><%= @post.body %></td>
       <td><%= @post.likes_count %></td>
